@@ -27,6 +27,10 @@ p {
   margin: 0;
 }
 
+img {
+  display: block;
+}
+
 /* common */
 
 .container {
@@ -139,6 +143,7 @@ p {
 .hero-section {
   background: #2e2f42;
   height: 600px;
+  padding: 188px 0;
 }
 
 .hero-title {
@@ -149,7 +154,7 @@ p {
   color: #fff;
   font-family: "Roboto", sans-serif;
   text-align: center;
-  padding-top: 188px;
+  max-width: 496px;
 }
 
 .hero-button {
@@ -166,6 +171,10 @@ p {
   gap: 10px;
   display: block;
   margin: 48px auto 0;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 
 .hero-button:hover,
@@ -186,6 +195,7 @@ p {
 .team-section {
   text-align: center;
   background: #f4f4fd;
+  padding: 120px 0;
 }
 
 .team-section-title {
@@ -195,8 +205,7 @@ p {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-transform: capitalize;
-  padding-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .team-list {
@@ -247,6 +256,7 @@ p {
 .portfolio {
   text-align: center;
   background-color: #f4f4fd;
+  padding-top: 120px;
 }
 
 .portfolio-list {
@@ -257,7 +267,6 @@ p {
 }
 
 .portfolio-container {
-  margin: 120px;
 }
 
 .portfolio-container-item {
@@ -265,7 +274,8 @@ p {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin: 32px;
+  margin: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 
 .portfolio-title {
@@ -277,6 +287,7 @@ p {
   color: #2e2f42;
   text-transform: capitalize;
   margin-bottom: 72px;
+  margin-bottom: 8px;
 }
 
 .portfolio-list {
@@ -331,8 +342,11 @@ p {
   overflow: hidden;
 }
 
+.services {
+  padding: 120px 0;
+}
+
 .services-container {
-  margin-top: 120px;
 }
 
 .service-list {
@@ -351,7 +365,9 @@ p {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
+
 .service-text {
   font-size: 16px;
   line-height: 1.5;
@@ -365,4 +381,13 @@ p {
   align-items: center;
   justify-content: center;
   margin: 100px 156px;
+}
+
+.page-footer {
+  padding: 100px 0;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
