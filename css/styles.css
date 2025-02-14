@@ -242,6 +242,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .team-member-role {
@@ -266,9 +267,6 @@ img {
   flex-wrap: wrap;
   justify-content: center;
   gap: 48px 24px;
-}
-
-.portfolio-container {
 }
 
 .portfolio-container-item {
@@ -317,7 +315,7 @@ img {
 
 .portfolio-item {
   background-color: #ffffff;
-  width: calc((100% - 72px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 
 .portfolio-item-category {
