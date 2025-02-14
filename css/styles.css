@@ -275,6 +275,7 @@ img {
   color: #2e2f42;
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
 }
 
 .team-member-name {
@@ -307,7 +308,13 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 48px 24px;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.portfolio-item {
+  background-color: #ffffff;
+  width: calc((100% - 48px) / 3);
 }
 
 .portfolio-container-item {
@@ -346,11 +353,6 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-}
-
-.portfolio-item {
-  background-color: #ffffff;
-  width: calc((100% - 48px) / 3);
 }
 
 .portfolio-item-category {
