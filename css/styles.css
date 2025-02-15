@@ -298,7 +298,6 @@ img {
 /*portfolio*/
 
 .portfolio {
-  text-align: center;
   background-color: #f4f4fd;
   padding-top: 120px;
   padding-bottom: 120px;
@@ -307,7 +306,6 @@ img {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   column-gap: 24px;
   row-gap: 48px;
 }
@@ -318,13 +316,10 @@ img {
 }
 
 .portfolio-container-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   border: 1px solid #e7e9fc;
   padding: 32px 16px;
   border-top: none;
+  box-sizing: border-box;
 }
 
 .portfolio-title {
@@ -361,6 +356,10 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.portfolio-image {
+  max-width: 100%;
 }
 
 /* footer */
